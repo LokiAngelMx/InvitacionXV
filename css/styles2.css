@@ -22,6 +22,18 @@
     font-size: 4rem;
 }
 
+#titulo-ceremonia {
+    font-family: 'Times New Roman', Times, serif;
+    color: #666666;
+    font-size: 4rem;
+}
+
+@media (max-width: 414px) {
+    #titulo-ceremonia {
+        font-size: 3.5rem;
+    }
+}
+
 #nombres {
     font-family: Playfair Display, Arial;
     font-size: 1.5rem;
