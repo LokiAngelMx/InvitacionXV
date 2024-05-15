@@ -1,0 +1,41 @@
+.nombres {
+    font-family: Playfair Display, Arial;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+#scrollDownArrow {
+    cursor: pointer;
+    margin-top: 12rem;
+    color: rgba(0,0,0,.54);
+    fill: rgba(225,223,219,1);
+    height: 48px;
+    width: 48px;
+}
+
+#titulo {
+    font-family: 'Times New Roman', Times, serif;
+    color: #666666;
+    font-size: 4rem;
+}
+
+#nombres {
+    font-family: Playfair Display, Arial;
+    font-size: 1.5rem;
+}
+
+#subtitulo {
+    font-family: Playfair Display, Arial;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #666666;
+    margin-top: 2rem;
+}
+
+#countdown div {
+    font-size: 2rem;
+    margin: 0 10px;
+}
