@@ -22,15 +22,25 @@
     font-size: 4rem;
 }
 
-#titulo-ceremonia {
+#titulo-largo {
     font-family: 'Times New Roman', Times, serif;
     color: #666666;
     font-size: 4rem;
 }
-
 @media (max-width: 414px) {
-    #titulo-ceremonia {
+    #titulo-largo {
         font-size: 3.5rem;
+    }
+}
+
+#titulo-maslargo {
+    font-family: 'Times New Roman', Times, serif;
+    color: #666666;
+    font-size: 4rem;
+}
+@media (max-width: 450px) {
+    #titulo-maslargo {
+        font-size: 3.3rem;
     }
 }
 
