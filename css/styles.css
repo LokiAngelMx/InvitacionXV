@@ -10936,9 +10936,9 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/portada.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed; /* Cambiado a fixed para efecto parallax */
   background-position: center center;
   background-size: cover;
   height: 100vh; /* Hace que el contenedor ocupe toda la altura de la pantalla */
