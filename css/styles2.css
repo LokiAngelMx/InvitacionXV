@@ -18,13 +18,13 @@
 
 #titulo {
     font-family: 'Times New Roman', Times, serif;
-    color: #666666;
+    color: #ddbf7a;
     font-size: 4rem;
 }
 
 #titulo-largo {
     font-family: 'Times New Roman', Times, serif;
-    color: #666666;
+    color: #ddbf7a;
     font-size: 4rem;
 }
 @media (max-width: 414px) {
@@ -35,7 +35,7 @@
 
 #titulo-maslargo {
     font-family: 'Times New Roman', Times, serif;
-    color: #666666;
+    color: #ddbf7a;
     font-size: 4rem;
 }
 @media (max-width: 450px) {
@@ -54,6 +54,30 @@
     font-size: 2rem;
     font-weight: 600;
     color: #666666;
+    margin-top: 2rem;
+}
+
+#subtitulo-padres {
+    font-family: Playfair Display, Arial;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ddbf7a;
+    margin-top: 2rem;
+}
+
+#nombres-arlet {
+    font-family: Playfair Display, Arial;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #de7ece;
+    margin-top: 2rem;
+}
+
+#nombres-ivanna {
+    font-family: Playfair Display, Arial;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #63c7ef;
     margin-top: 2rem;
 }
 
