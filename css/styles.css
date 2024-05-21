@@ -11336,12 +11336,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/final.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll; /* Cambiado a fixed para efecto parallax */
-  background-position: center center;
-  background-size: cover;
   height: 100vh; /* Hace que el contenedor ocupe toda la altura de la pantalla */
   width: 100vw;
 }
