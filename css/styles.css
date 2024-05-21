@@ -10936,7 +10936,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/portada.jpg");
+  background-image: url("../assets/img/principal.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll; /* Cambiado a fixed para efecto parallax */
   background-position: center center;
@@ -10944,12 +10944,27 @@ header.masthead {
   height: 100vh; /* Hace que el contenedor ocupe toda la altura de la pantalla */
   width: 100vw;
 }
+
+/* Para pantallas en orientación vertical */
+@media screen and (orientation: portrait) {
+  header.masthead {
+    background-image: url("../assets/img/principal-v.jpg"); /* Imagen para pantalla vertical */
+  }
+}
+
+/* Para pantallas en orientación horizontal */
+@media screen and (orientation: landscape) {
+  header.masthead {
+    background-image: url("../assets/img/principal-h.jpg"); /* Imagen para pantalla horizontal */
+  }
+}
+
 header.masthead .masthead-heading {
   font-size: 8rem;
   font-weight: 700;
   line-height: 3.25rem;
-  margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-top: 20rem;
+  margin-bottom: 8rem;
   font-family: Dancing Script, Arial;
 }
 header.masthead .masthead-subheading {
@@ -10961,7 +10976,7 @@ header.masthead .masthead-subheading {
 
 @media (max-width: 1200px) {
   header.masthead {
-    padding-top: 17rem;
+    padding-top: 25rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-heading {
@@ -10979,7 +10994,7 @@ header.masthead .masthead-subheading {
 }
 @media (max-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
+    padding-top: 25rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-heading {
